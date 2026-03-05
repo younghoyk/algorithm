@@ -1,4 +1,4 @@
-N=int(input().split())
+N=int(input())
 if N >= 90 :
     print("A")
 elif N>= 80 :
