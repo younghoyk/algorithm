@@ -1,3 +1,3 @@
-A,B=map(int,input().split)
-M=A if a>b else B
+A,B=map(int,input().split())
+M=A if A>B else B
 print(M)
