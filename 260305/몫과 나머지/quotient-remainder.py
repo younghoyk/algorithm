@@ -1,2 +1,2 @@
-A,B=int(input().split())
+A,B=input().split()
 print(A,"...",B,sep="")
