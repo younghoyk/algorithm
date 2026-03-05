@@ -4,7 +4,7 @@ if A>B and A>C :
         print(B)
     else :
         print(C)
-if A<B and A<C :
+elif A<B and A<C :
     if B>C :
         print(C)
     else :
