@@ -1,6 +1,6 @@
 A,B=map(int,input().split())
 sum_val=0
-if A<B :
+if A>B :
     B,A=A,B
 for i in range(A,B+1) :
     if i % 5 ==0 :
