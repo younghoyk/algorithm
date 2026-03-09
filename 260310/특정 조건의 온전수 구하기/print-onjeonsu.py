@@ -5,5 +5,5 @@ for i in range(1,N+1):
         continue
     if str(i)[0]=="5" :
         continue
-    ans.append(spr(i))
+    ans.append(str(i))
 print(f"{' '.join(ans)}")
