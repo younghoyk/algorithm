@@ -6,4 +6,4 @@ for i in range(1,N+1):
     if str(i)[0]=="5" :
         continue
     ans.append(spr(i))
-print(f"{' '.join(ans))")
+print(f"{' '.join(ans)}")
