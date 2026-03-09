@@ -1,9 +1,6 @@
 N=int(input())
 ans=[]
 for i in range(1,N+1):
-    if i %2 ==0 or (i%3==0 and i%9!=0):
+    if i %2 ==0 or (i%3==0 and i%9!=0) or i % 10 ==5 :
         continue
-    if str(i)[0]=="5" :
-        continue
-    ans.append(str(i))
-print(f"{' '.join(ans)}")
+    print(i, end= " ")
