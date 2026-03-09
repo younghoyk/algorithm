@@ -1,4 +1,5 @@
 n = int(input())
 
 def A(n):
-    print("12345^&*()"*n)
+    for _ in range(n):
+        print("12345^&*()")
