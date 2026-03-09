@@ -7,5 +7,5 @@ for i in range(1,A):
         continue
     if (i % 7) <4 :
         continue
-    ans.append(spr(i))
+    ans.append(str(i))
 print(f"{" ".join(ans)}")
