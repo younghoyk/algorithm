@@ -16,5 +16,5 @@ for i in range(n):
             if in_range(i+dx[k],j+dy[k]) and matrix[i+dx[k]][j+dy[k]] ==1 :
                 a+=1
         if a>=3 :
-            cnt+=
+            cnt+=1
         
