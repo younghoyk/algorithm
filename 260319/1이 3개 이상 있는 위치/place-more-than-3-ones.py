@@ -13,8 +13,8 @@ for i in range(n):
     for j in range(n):
         a=0
         for k in range(4):
-            if matrix[i+dx[k]][j+dy[k]] ==1 and in_range(i+dx[k],j+dy[k]) :
+            if in_range(i+dx[k],j+dy[k]) and matrix[i+dx[k]][j+dy[k]] ==1 :
                 a+=1
-        if a==3 :
-            cnt+=1
+        if a>=3 :
+            cnt+=
         
