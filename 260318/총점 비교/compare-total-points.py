@@ -10,6 +10,6 @@ students=[]
 for _ in range(N):
     a,b,c=input().split()
     students.append(student(a,b,c))
-student.sort(key=lambda x : x.a+x.b+x.c)
+students.sort(key=lambda x : x.a+x.b+x.c)
 for i in students:
     print(i.name, i.a, i.b, i.c)
