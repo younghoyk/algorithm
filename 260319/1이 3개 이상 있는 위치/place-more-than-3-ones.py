@@ -17,4 +17,4 @@ for i in range(n):
                 a+=1
         if a>=3 :
             cnt+=1
-        
+print(cnt)
