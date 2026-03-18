@@ -2,7 +2,7 @@ N=int(input())
 point=list(map(int,input().split()))
 
 points=[]
-for i in len(point) :
+for i in range(len(point)) :
     points.append([i+1,point[i]])
 
 points.sort(key=lambda x : x[1])
@@ -15,5 +15,5 @@ for i in points :
 points.sort(key=lambda x : x[0])
 
 for i in points :
-    print(i[2])
+    print(i[2], end=" ")
 
