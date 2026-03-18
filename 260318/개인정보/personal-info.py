@@ -1,4 +1,4 @@
-students = [tuple(map(int, input().split())) + (i + 1,) for i in range(5)]
+students = [tuple(input().split()) + (i + 1,) for i in range(5)]
 
 students.sort(key=lambda x : x[0])
 
