@@ -9,6 +9,6 @@ for i in range(len(command)) :
     elif command == "R" :
         direction=(direction+1)%4
     else :
-        x,y=x+dx[direction],x+dy[direction]
+        x,y=x+dx[direction],y+dy[direction]
 print(x,y)
 
