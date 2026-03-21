@@ -5,3 +5,6 @@ def prt(n) :
         return
     prt(n-1)
     print("HelloWorld")
+
+
+prt(n)
