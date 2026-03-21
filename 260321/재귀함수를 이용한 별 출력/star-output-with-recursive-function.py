@@ -5,3 +5,4 @@ def star(n) :
         return
     star(n-1)
     print("*"*n)
+star(n)
